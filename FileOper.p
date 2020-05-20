@@ -2,8 +2,8 @@
  DEFINE VARIABLE cDestination  AS CHARACTER   NO-UNDO.  
  DEFINE VARIABLE cFileTypes    AS CHARACTER   NO-UNDO. 
  
- ASSIGN cSource      = "X:\src\am\"
-        cDestination = "C:\MyDrive\"
+ ASSIGN cSource      = "C:\Users\rahul.sharma\Desktop\gitPro\testProgProg\"
+        cDestination = "C:\Users\rahul.sharma\Desktop\gitPro\compilefile\"
         cFileTypes   = "*.p,*.w".
 
  /*cFileTypes   = "*.p,*.r".*/
@@ -53,7 +53,7 @@
        ASSIGN cSourcePath = FILE-INFO:FULL-PATHNAME
               cDestPath   = cDestination + REPLACE(FILE-INFO:FILE-NAME, cSource, "":U).
        
-       compile VALUE(cSourcePath) save VALUE(cDestPath).
+       compile VALUE(cSourcePath) SAVE INTO VALUE(cDestination).
  
      END. /* IF FILE-INFO:FILE-TYPE BEGINS "F":U THEN */
  
