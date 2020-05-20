@@ -1,1 +1,1 @@
-display("Hello Progress1234")
+dioisplay("Hello Progress1234")
