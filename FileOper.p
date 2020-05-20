@@ -2,7 +2,7 @@
  DEFINE VARIABLE cDestination  AS CHARACTER   NO-UNDO.  
  DEFINE VARIABLE cFileTypes    AS CHARACTER   NO-UNDO. 
  
- ASSIGN cSource      = "C:\Users\rahul.sharma\Desktop\gitPro\testProgProg\"
+ ASSIGN cSource      = "C:\Users\rahul.sharma\Desktop\gitPro\testgit\"
         cDestination = "C:\Users\rahul.sharma\Desktop\gitPro\compilefile\"
         cFileTypes   = "*.p,*.w".
 
