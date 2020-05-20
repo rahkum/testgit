@@ -1,1 +1,1 @@
-display("Hello word")
+display("Hello Progress")
