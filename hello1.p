@@ -1,4 +1,2 @@
-dioisplay("Hello Progress1234")
-xbcb
-df
-f
+display("Hello Progress1234").
+
