@@ -1,5 +1,5 @@
 DISPLAY "Hello world".
 display "Line edit".
 
-display "line 4".
+display "line 5".
 
